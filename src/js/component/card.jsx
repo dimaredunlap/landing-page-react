@@ -7,7 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Card = (props) => {
 	return (
-			<div className="Card" style={{width: "18rem"}}>
+			<div className="Card" style={{width: "18rem"}} class="bg-warning mt-2 mx-auto">
 				<img className="card-img-top" src="..." alt="Card image cap" />
          		<div className="card-body">
             	<h5 className="card-title">{props.title}</h5>

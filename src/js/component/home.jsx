@@ -14,7 +14,7 @@ const Home = () => {
 	let card3 = {"title": "Card Three", "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
 	let card4 = {"title": "Card Four", "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
 	return (
-		<div className="container">
+		<div className="container-fluid">
 			<Navbar/>
 			<Jumbotron/>
 			<div className="d-flex">
